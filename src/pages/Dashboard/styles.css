@@ -1,0 +1,131 @@
+.container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 100%;
+}
+
+.group-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.search input {
+  width: 300px;
+  height: 42px;
+
+  border: 1px solid #000;
+  border-radius: 4px;
+
+  padding-left: 10px;
+
+  font-size: 16px;
+  color: #000;
+}
+
+.add-tool button {
+  width: 300px;
+  height: 42px;
+
+  border: 0;
+  border-radius: 4px;
+
+  padding: 10px;
+
+  font-size: 16px;
+}
+
+main {
+  max-width: 900px;
+  width: 100%;
+}
+
+.group-card {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.group-card li {
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.group-card li h1 {
+  margin-bottom: 10px;
+}
+
+.group-card li p {
+  margin-bottom: 5px;
+}
+
+.group-card li a {
+  margin-top: 5px;
+}
+
+
+/* Modal inicio */
+
+.modal {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal button {
+  width: 300px;
+  height: 42px;
+
+  border: 0;
+  border-radius: 4px;
+
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  
+  font-size: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group label {
+  font-size: 16px;
+  color: #000;
+}
+
+.form-group input {
+  max-width: 300px;
+  width: 100%;
+  height: 42px;
+
+  border: 1px solid #000;
+  border-radius: 4px;
+
+  padding-left: 10px;
+
+  color: #000;
+  font-size: 16px;
+}
+
+
+/* Modal final */

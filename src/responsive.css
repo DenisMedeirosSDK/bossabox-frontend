@@ -1,0 +1,22 @@
+@media(max-width: 600px) {
+  nav {
+    display: flex;
+  }
+  nav .group-nav  {
+    flex-direction: column;
+  }
+  nav .group-nav .search {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 900px) {
+  main {
+    margin: 50px 0 0 0;
+  }
+  .group-card {
+    margin: 0 10px 0 10px;
+    max-width: 900px;
+    width: 100%;
+  }
+}
