@@ -73,12 +73,14 @@ const Dashboard: React.FC = () => {
     <div className="container">
       <header>
         <h1>Very Useful Tools to Remember</h1>
+        <p>contato.denismedeiros@hotmail.com</p>
       </header>
 
       <nav>
         <div className="group-nav">
           <div className="search">
             <input type="text" placeholder="Pesquise uma ferramenta"  />
+            <p>Esta função de pesquisa ainda não esta sendo desenvolvida</p>
           </div>
           <div className="add-tool">
             <button onClick={openModal}>Adicionar ferramenta</button>
